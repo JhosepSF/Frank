@@ -78,9 +78,9 @@ export function PanelPrincipal() {
       <p className="contador-tiempo">{tiempo}</p>
       <div className="botones">
         <button onClick={generarCorazones}>💞 Lluvia de corazones</button>
-        <button onClick={reproducirMusica}>🎵 Nuestra canción</button>
+        <button onClick={reproducirMusica}>🎵</button>
       </div>
-      <audio id="musica" src="/Music/Solamentedan Que la Luna Sepa.mp3" loop></audio>
+      <audio id="musica" src="/Music/Indila Love Story.mp3" loop></audio>
     </div>
   );
 }
